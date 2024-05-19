@@ -1,33 +1,53 @@
-# Project Title
+# AudiLab
 
-A brief description of what this project does and who it's for.
+AudiLab is a decentralized application (dApp) that allows music creators to upload their soundtracks to the InterPlanetary File System (IPFS) and store them on the Ethereum blockchain through a smart contract. This project leverages the power of blockchain technology to provide a secure, transparent, and decentralized platform for music distribution.
 
-## Installation
+## Installation Guide
 
-Describe the installation process. If your project uses npm, this might look like:
+To get started with AudiLab, follow these steps:
 
-```sh
-npm install
-```
+1. **Clone the repository:**
 
-## Usage
+   ```sh
+   git clone https://github.com/michaelwwn/audilab.git
+   cd audilab
+   ```
 
-Provide instructions and examples for use. If your project has a CLI, this might be:
+2. **Install dependencies:**
 
-```sh
-npm start
-```
+   ```sh
+   npm install
+   ```
 
-## Contributing
+3. **Run the development server:**
 
-Let people know how they can contribute into your project. A [contributing guideline](CONTRIBUTING.md) can be a big plus. You can also provide a few instructions here.
+   ```sh
+   npm run dev
+   ```
+
+4. **Open your browser:**
+
+   Open your browser and navigate to `http://localhost:3000` to see the application in action.
+
+### Prerequisites
+
+- Node.js and npm: Ensure you have Node.js and npm installed. You can download them from [here](https://nodejs.org/).
+- Truffle: Install Truffle globally if you haven't already.
+
+  ```sh
+  npm install -g truffle
+  ```
+
+- IPFS: You need an IPFS node running. You can either install IPFS on your machine or use an IPFS HTTP API service.
 
 ## License
 
-For open source projects, say how it is licensed.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
+## Demo Video
 
-Your Name - YourEmail@example.com
+[![demo](https://img.youtube.com/vi/tdoC1O9di_s/0.jpg)](https://youtu.be/tdoC1O9di_s)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+---
+
+Feel free to contribute to this project by creating issues or submitting pull requests. We welcome all contributions that can help improve AudiLab and make it a better platform for music creators.
